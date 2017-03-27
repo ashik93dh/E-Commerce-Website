@@ -1,0 +1,172 @@
+body{
+    
+    background: #cccccc;
+    width: 100%;
+}
+.header{
+    
+    background: #88A8E5;
+    height:50px;
+    width:100%;
+    color:#fff;
+}
+
+.header ul{
+    list-style-type: none;
+   
+    margin:0px;
+}
+.header ul li{
+    display:inline;
+}
+.header ul li a{
+    color:#fff;
+    padding: 10px;
+    line-height: 50px;
+    text-decoration:none;
+    
+}
+.header ul li a:hover {
+    background-color: #00FFFF;
+}
+
+.navbar ul li a:hover {
+    background-color: #f1f1f1;
+}
+
+.navbar {
+    background: #fff;
+    padding:0px;
+    width: 100%;
+    height: 50px;
+    
+    
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 0px;
+   
+}
+.navbar ul li{
+    display: inline;
+    border-right: 1px solid #bbb;
+  
+}
+.navbar ul li:last-child{
+    border-right: none;
+}
+.navbar ul li a{
+    color:black;
+  
+    line-height: 50px;
+    text-decoration: none;
+    padding: 10px 10%;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+   
+}
+
+ 
+.productsection{
+    margin:auto ; 
+    width: 100%;
+    background: #fff;
+    display: inline-block;
+}
+ .productsection h2{
+    color:black;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px;
+}
+.singleproduct{
+    width: 24.5%;
+    border: 1px solid #cccccc;
+    margin:40px;
+    padding: 1%;
+    display: inline-block;
+    align-content: center;
+    
+}
+.singleproduct img{
+    width: 100%;
+    height: 200px;
+   
+    
+}
+.text-center{
+    text-align: center;
+}
+.singleproduct button{
+    background: #88A8E5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.footer{
+    position: absolute;
+    height: 90px;
+    width: 100%;
+    
+}
+.pro_info{
+    width: 100%;
+    margin-top: 50px;
+    background: #FFF;
+    
+    
+}
+
+.footer p{
+    text-align: center;
+    font-family: arial,helvetica;
+    font-weight: bold;
+}
+.orders{
+    
+    border-top:1px solid gray; 
+    background: #fff;
+    margin: auto;
+    width: 800px;
+    height: 50px;
+    padding:10px;
+    
+    
+}
+
+.orders h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.orders h2{
+    text-align: center;
+    font-size: 15px;
+     font-family: sans-serif;
+}
+.order_section{
+    
+    background: #fff;
+    margin: auto;
+    width: 800px;
+    height: 150px;
+    padding:10px;
+    border-bottom: 1px solid gray;
+}
+.order_section img{
+   height:100px; width:200px; float:left;
+}
+.order_section a{
+    
+    float: right;
+    text-decoration: none;
+    color: black;
+}
